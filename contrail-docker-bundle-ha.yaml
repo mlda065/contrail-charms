@@ -223,25 +223,25 @@ relations:
 machines:
   "1":
     series: xenial
-    constraints: mem=15G root-disk=40G
-    #constraints: tags=contrail-controller-vm-1
+    #constraints: mem=15G root-disk=40G
+    constraints: tags=contrail-controller-vm-1
   "2":
     series: xenial
-    constraints: mem=15G root-disk=40G
-    #constraints: tags=contrail-controller-vm-2
+    #constraints: mem=15G root-disk=40G
+    constraints: tags=contrail-controller-vm-2
   "3":
     series: xenial
-    constraints: mem=15G root-disk=40G
-    #constraints: tags=contrail-controller-vm-3
+    #constraints: mem=15G root-disk=40G
+    constraints: tags=contrail-controller-vm-3
   "4":
     series: xenial
-    constraints: mem=4G root-disk=20G
-    #constraints: tags=compute-storage-1
+    #constraints: mem=4G root-disk=20G
+    constraints: tags=compute-storage-1
   "5":
     series: xenial
-    constraints: mem=4G root-disk=20G
-    #constraints: tags=compute-storage-2
+    #constraints: mem=4G root-disk=20G
+    constraints: tags=compute-storage-2
   "6":
     series: xenial
-    constraints: mem=4G root-disk=20G
-    #constraints: tags=compute-storage-3
+    #constraints: mem=4G root-disk=20G
+    constraints: tags=compute-storage-3
